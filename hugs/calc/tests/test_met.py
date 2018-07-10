@@ -1,6 +1,6 @@
 """Test the `met` module."""
 
-from hugs.calc import get_wind_dir, get_wind_speed, get_wind_components
+from hugs.calc import get_wind_components, get_wind_dir, get_wind_speed
 
 import numpy as np
 from numpy.testing import assert_almost_equal, assert_array_almost_equal
